@@ -13,7 +13,8 @@
                 VerticalOptions="EndAndExpand"
                 StrokeShape="RoundRectangle 40,40,0,0"
                 Margin="0,-25,0,0"
-                HeightRequest="300"/>
+                HeightRequest="300"
+                Padding="0"/>
 
         <!--<StackLayout BackgroundColor="Blue"
                      VerticalOptions="EndAndExpand"
