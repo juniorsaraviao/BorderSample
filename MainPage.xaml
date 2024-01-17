@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BorderSample.MainPage"
+             xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+             ios:Page.UseSafeArea="False">
+
+    <StackLayout IgnoreSafeArea="True"
+                 BackgroundColor="Orange"
+                 VerticalOptions="FillAndExpand">
+
+        <Border BackgroundColor="Blue"
+                VerticalOptions="EndAndExpand"
+                StrokeShape="RoundRectangle 40,40,0,0"
+                Margin="0,-25,0,0"
+                HeightRequest="300"/>
+
+        <!--<StackLayout BackgroundColor="Blue"
+                     VerticalOptions="EndAndExpand"
+                     Margin="0,-25,0,0"
+                     HeightRequest="300"/>-->
+    </StackLayout>
+
+</ContentPage>
